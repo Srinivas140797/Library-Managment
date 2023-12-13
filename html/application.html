@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="srinivas" />
+    <meta
+      name="description"
+      content="this page is all about different types of books"
+    />
+    <meta name="keywords" content="library, books ,register , many books" />
+    <title>Application Form</title>
+</head>
+<body>
+    <header id="top">
+        <h1>
+          <img src="/images/logo.png" alt="" />
+          <center><em><u><abbr title="Sri Sai Srinivasa">SSS </abbr>Library Card Application Form </u></em></center>
+        </h1>
+        <table>
+          <thead></thead>
+          <tbody>
+            <tr>
+              <td colspan="3">
+                <nav>
+                  <a href="home.html">Home</a> | &nbsp;&nbsp;&nbsp;
+                  <a href="#about">About</a> | &nbsp;&nbsp;&nbsp;
+                  <a href="#timings">Timings</a> | &nbsp;&nbsp;&nbsp;
+                   <a href="menu.html">Menu</a> | &nbsp;&nbsp;&nbsp;
+                  <a href="booksborrowed.html">Books Barrowed</a> | &nbsp;&nbsp;&nbsp;
+                  <a href="Register.html">Register</a> &nbsp;&nbsp;&nbsp;
+                </nav>
+              </td>
+            </tr>
+          </tbody>
+          <tfoot></tfoot>
+        </table>
+      </header>
+      <hr>
+      <main>
+        <section>
+            <form action="" method="get">
+                <p>
+                    <h3>Name</h3>
+                    <input type="text" name="Name" id="Name" placeholder="First name" autocomplete="on" autofocus  > &nbsp;&nbsp;
+                    <input type="text" name="Name" id="Name" placeholder="Last name" >    
+                </p>
+                <p>
+                    <h3>Birthdate</h3>
+                    <input type="date" name="dob" id="dob" value="14-07-1997" min="1950-01-01" max="2023-11-30">
+                </p>
+                <p>
+                    <h3>Phone Number</h3>
+                    <input type="tel" name="tel" id="tel" placeholder="9133432739"  >
+                </p>
+                <p>
+                    <h3>Email </h3>
+                    <input type="email" name="mail" id="mail" placeholder="srinukandula@gmail.com" size="50">
+                </p>
+                <p>
+                    <h3>Address</h3>
+                        <input type="text" name="address" id="address" placeholder="street address" size="50">
+                        <br><br>
+                        <input type="text" name="address" id="address" placeholder="street address line 2" size="50">
+                        <br><br>
+                        <input type="text" name="address" id="address" placeholder="city" size="50">
+                        <br><br>
+                        <input type="text" name="address" id="address" placeholder="state/Province" size="50">
+                        <br><br>
+                        <input type="text" name="address" id="address" placeholder="Postal / Zip Code" size="50">
+                </p>
+                <p>
+                    <h3>What is the expected duration use of the library card?</h3>
+                    <input type="radio"  id="single" name="months" value="SINGLE" >
+                    <label for="single">Single Visit</label> 
+                    <br><br>
+                    <input type="radio"  id="six" name="months" value="SIX MONTHS">
+                    <label for="six">6 months</label>
+                    <br><br>
+                    <input type="radio"  id="twelve" name="months" value="TWELVE MONTHS">
+                    <label for="months">12 months</label>
+                    <br><br>
+                    <input type="radio"  id="twelve plus" name="months" value="TWELVE MONTHS PLUS">
+                    <label for="months">More than 12 months</label>
+                    <br><br>
+                    <input type="radio"  id="mo" name="months" value="OTHERS">
+                    <label for="mo">other</label>
+                </p>
+                <p>
+                    <h3>What's the reason for applying to a library card? Please specify.</h3>
+                    <textarea name="" id="" cols="50" rows="10" placeholder="Type here.."></textarea>
+                </p>
+                <p>
+                    <h3>Would you like to receive periodic emails about library news, special events and activities</h3>
+                    <input type="radio" id="yes" name="name" value="YES">
+                    <label for="yes">Yes</label> <br><br>
+                    <input type="radio" id="no" name="name" value="NO">
+                    <label for="no">No</label>
+                </p>
+                <P>
+                    <center>
+                        <button type="submit"><a href="/html/payment.html">Submit</a></button>
+                        <input type="reset" value="Reset" size="50">
+                    </center>                   
+                </P>
+            </form>
+        </section>
+      </main>
+      <hr>
+      <footer>
+        <center><p>SSS LIBRARY &copy; 2023 <q><b>Today a reader, tomorrow a leader.</b></q></p></center>
+        </footer>
+</body>
+</html>
